@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Simple JS Quiz</title>
+	<link rel ="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Simple JavaScript Quiz</h1>
+			<p> Test your knowledge in <strong>JavaScript Fundamentals </strong></p>
+		</header>
+		<section>
+			<div id="results"></div>
+			<form name="quizForm" onsubmit = "return submitAnswers()">
+				<h3>1. In which HTML element do we put in JavaScript code?</h3>
+				<input type="radio" name="q1" value ="a" id="q1a"> a. &lt;js&gt;<br>
+				<input type="radio" name="q1" value ="b" id="q1b"> b. &lt;script&gt;<br>
+				<input type="radio" name="q1" value ="c" id="q1c"> c. &lt;body&gt;<br>
+				<input type="radio" name="q1" value ="d" id="q1d"> d. &lt;link&gt;<br>
+				<br>
+				<!-- <button onclick="myFunction()" type="button" id="q1button"> See Answer </button> -->
+				<!-- <input id="q1button" type="button" name="button" value="See Answer"/> -->
+				<div class="AnswersButton"></div>
+				<!-- <div class="CorrectAnswer"></div> -->
+
+				<h3>2. JavaScript is directly related to JAVA programming langauge?</h3>
+				<input type="radio" name="q2" value="a" id="q2a"> a. True<br>
+				<input type="radio" name="q2" value="b" id="q2b"> b. False<br>
+				<br>
+				<!-- <button onclick="myFunction()" type="button" id="q2button"> See Answer </button> -->
+				<!-- <input id="q2button" type="button" name="button" value="See Answer"/> -->
+				<div class="AnswersButton"></div>
+				<!-- <div class="CorrectAnswer"></div> -->
+
+				<h3>3. A variable in JavaScript must start with which special character</h3>
+				<input type="radio" name="q3" value ="a" id="q3a"> a. @ <br>
+				<input type="radio" name="q3" value ="b" id="q3b"> b. #<br>
+				<input type="radio" name="q3" value ="c" id="q3c"> c. *<br>
+				<input type="radio" name="q3" value ="d" id="q3d"> d. No special character<br>
+				<br>
+				<!-- <button onclick="myFunction()" type="button" id="q3button"> See Answer </button> -->
+				<!-- <input id="q3button" type="button" name="button" value="See Answer"/> -->
+				<div class="AnswersButton"></div>
+				<!-- <div class="CorrectAnswer"></div> -->
+
+				<h3>4. How would you write "Hello" in an alert box?</h3>
+				<input type="radio" name="q4" value ="a" id="q4a"> a. msg("Hello") <br>
+				<input type="radio" name="q4" value ="b" id="q4b"> b. alertbox("Hello")<br>
+				<input type="radio" name="q4" value ="c" id="q4c"> c. document.write("Hello")<br>
+				<input type="radio" name="q4" value ="d" id="q4d"> d. alert("Hello")<br>
+				<br>
+				<!-- <button onclick="myFunction()" type="button" id="q4button"> See Answer </button> -->
+				<!-- <input id="q4button" type="button" name="button" value="See Answer"/> -->
+				<div class="AnswersButton"></div>
+				<!-- <div class="CorrectAnswer"></div> -->
+
+				<br><br>
+				<input type="submit" value="Submit Answers">
+			</form>
+		</section>
+		<footer>
+			<p>Copyright &copy; 2015, All Rights Reserved </p>
+		</footer>
+
+	</div>
+</body>
+</html>
